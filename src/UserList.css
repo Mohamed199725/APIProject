@@ -1,0 +1,26 @@
+/* src/UserList.css */
+
+li {
+    background-color: #1e1e1e;
+    color: #2c0685;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #01080f;
+    /* Dark blue on hover */
+    color: #000000;
+    /* Black text color on hover */
+}
+
+li.selected {
+    background-color: #004080;
+    /* Dark blue */
+    color: #fff;
+    /* White text color */
+}
